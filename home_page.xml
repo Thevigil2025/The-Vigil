@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity=".MainActivity">
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="362dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="68dp"
+        android:fontFamily="@font/agbalumo"
+        android:text="Wanna buy our product?"
+        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        android:textColor="@color/teal_700"
+        android:textSize="32sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="321dp"
+        android:layout_height="95dp"
+        android:layout_marginTop="148dp"
+        android:fontFamily="@font/agbalumo"
+        android:text="Here's how you can do it..."
+        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        android:textColor="@color/teal_700"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="336dp"
+        android:layout_height="125dp"
+        android:layout_marginEnd="72dp"
+        android:backgroundTint="#2196F3"
+        android:clickable="false"
+        android:fontFamily="@font/acme"
+        android:shadowColor="#090909"
+        android:text="Email"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.379"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.646" />
+
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="319dp"
+        android:layout_height="123dp"
+        android:backgroundTint="#03A9F4"
+        android:clickable="false"
+        android:fontFamily="@font/acme"
+        android:shadowColor="#090909"
+        android:text="Contact"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.379"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.442" />
+
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="313dp"
+        android:layout_height="119dp"
+        android:backgroundTint="#2196F3"
+        android:bufferType="normal"
+        android:clickable="false"
+        android:fontFamily="@font/acme"
+        android:shadowColor="#090909"
+        android:text="COME MEET US"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.379"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.844" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="450dp"
+        android:layout_height="94dp"
+        app:menu="@menu/menu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
