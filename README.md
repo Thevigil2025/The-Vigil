@@ -2,8 +2,17 @@
 
 DustVigil is an innovative air pollution control project designed to address both outdoor and indoor dust pollution, specifically targeting construction sites. The project consists of two key devices:
 
-1. **A Drone for Outdoor Dust Control** - A flying robot designed like a pigeon, capable of sensing dust levels and spraying a water + plant-based additive solution to settle dust.
-2. **A Hand-Held Vacuum Device for Indoor Dust Control** - A portable device that can be mounted on tools like drills, equipped with sensors to measure dust accumulation and display data on a mobile/web application.
+ **A Drone for Outdoor Dust Control** - A flying robot, capable of sensing dust levels and spraying a water + plant-based additive solution to settle dust.
+ **Application For Controlling the Drone and other features**  -
+ DustVigil Software Application
+The DustVigil Software Application is designed to monitor, control, and analyze dust pollution data collected from DustVigil devices. It provides real-time insights and allows users to interact with both the Drone .
+
+Key Features
+✅ Real-Time Dust Monitoring – Displays live dust levels from sensors on a dashboard.
+✅ Drone Control Panel – Allows users to operate the drone manually or set it to autonomous mode.
+✅ Data Analytics & Reports – Provides dust level trends and patterns over time.
+✅ GPS Tracking – Shows drone movement and dust concentration zones.
+✅ Battery & Resource Monitoring – Displays battery life and refill alerts for both devices.
 
 ## Features
 - **Drone for Outdoor Pollution Control**
@@ -11,16 +20,10 @@ DustVigil is an innovative air pollution control project designed to address bot
   - Sprays a water-based solution to minimize dust
   - Designed for automated and manual operation
   - Can be recharged and refilled at a central station
-  
-- **Hand-Held Vacuum for Indoor Pollution Control**
-  - Collects dust generated during drilling and surface smoothing
-  - Mountable on tools to reduce worker exposure to airborne particles
-  - Includes a sensor to track dust accumulation
-  - Displays real-time data on a mobile/web app
 
 Technologies Used
 - **Hardware:** Sensors, microcontrollers, motors, battery systems
-- **Software:** Python (Flask for backend), MySQL (database), Mobile/Web application for monitoring
+- **Software:** Android Studio (using Kotlin)
 - **AI Integration:** Dust level sensing and automated spray control
 
 ---
