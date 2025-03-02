@@ -7,11 +7,15 @@ DustVigil is an innovative air pollution control project designed to address bot
  DustVigil Software Application
 The DustVigil Software Application is designed to monitor, control, and analyze dust pollution data collected from DustVigil devices. It provides real-time insights and allows users to interact with both the Drone .
 
-Key Features
+**Key Features of the software**
 ✅ Real-Time Dust Monitoring – Displays live dust levels from sensors on a dashboard.
-✅ Drone Control Panel – Allows users to operate the drone manually or set it to autonomous mode.
+
+✅Drone Control Panel – Allows users to operate the drone manually or set it to autonomous mode.
+
 ✅ Data Analytics & Reports – Provides dust level trends and patterns over time.
+
 ✅ GPS Tracking – Shows drone movement and dust concentration zones.
+
 ✅ Battery & Resource Monitoring – Displays battery life and refill alerts for both devices.
 
 ## Features
