@@ -25,7 +25,7 @@ Technologies Used
 
 ---
 
-License:** [SCopyright (C) 2025 [DustVigil]
+**License:** [SCopyright (C) 2025 [DustVigil]
 
 All rights reserved.
 
